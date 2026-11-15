@@ -1,0 +1,22 @@
+{
+  "name": "borehole-3d",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "钻孔数据三维体渲染系统 (TypeScript + WebGPU)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "devDependencies": {
+    "@webgpu/types": "^0.1.44",
+    "playwright": "^1.65.1",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.8",
+    "vitest": "^2.1.2"
+  }
+}
